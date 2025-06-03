@@ -8,3 +8,19 @@
 7. Watch (İzleme) ile Otomatik Görev Çalıştırma
 8. Build & Deploy - İş Akışına Gulp’ı Entegre Etmek
 9. Gulp ile Modern JS Bundle (Webpack Entegrasyonu)
+
+Bu temel gulp yapılandırması hem `CommonJS` hem `EcmaScript Module` yapısını içermektedir.
+
+Bir frontend geliştirici için temel olarak ihtiyaç duyuyabilecek yapılandırmalar tanımlanmıştır.
+
+CommonJS ile geliştirme	
+`npm run dev:js`
+
+ES Modules ile geliştirme
+`npm run dev:mjs`
+
+Sadece build (CJS)	
+`npm run build:js`
+
+Sadece build (ESM)	
+`npm run build:mjs`
